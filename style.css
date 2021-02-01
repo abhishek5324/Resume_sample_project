@@ -1,0 +1,653 @@
+body
+{
+  margin: 0px;
+
+}
+
+#body-header
+{
+  height: 65vh;
+  background-image: url(images/image2.jpg);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8;
+  background-attachment: fixed;
+}
+
+
+.menu-nav li a {
+    transition: color 0.5s, border-bottom 4s;
+}
+
+.menu-nav li a:hover {
+    color: lightgrey;
+    border-bottom: 1px solid black;
+}
+
+.center
+{
+  text-align: center;
+}
+#body-header h1
+{
+
+  margin-top: 15vh;
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: white;
+  letter-spacing: 0.1rem;
+
+}
+.social ul
+{
+margin-top: 13vh;
+}
+.social li a i
+{
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 2rem;
+}
+.social li a i:hover
+{
+  box-shadow: 0px 0px 6px 4px;
+}
+.head li a
+{
+  padding: 5px;
+  font-size: 1.3rem;
+}
+.hidden-list
+{
+  list-style: none;
+}
+.hidden-list li
+{
+  font-weight: 100;
+    font-size: 0.9rem;
+}
+.hidden-list li a
+{
+  list-style: none;
+    color: white;
+    text-decoration: none;
+}
+.horizon
+{
+
+  padding-left: 0px;
+  margin: 0;
+}
+.horizon li
+{
+  display: inline;
+
+  margin: 0 8px 8px 0;
+}
+.ryt
+{
+  text-align: right;
+}
+
+#about
+{
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+#img-p
+{
+  height: 12rem;
+  width: 12rem;
+margin: auto;
+margin-top: -13vh;
+
+}
+.im1
+{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  box-shadow: 0px 0px 6px 4px white;
+  border: solid 1px black;
+}
+.content
+{
+  margin:4px 100px;
+}
+
+.content p
+{
+  font-size: 1.2rem;
+  text-align: justify;
+  color: grey;
+}
+section
+{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-heading
+{
+  width: auto;
+  padding: 20px 10px 10px;
+  font-weight: 400;
+    color: #2857a4;
+      font-size: 50px;
+}
+.section-heading span
+{
+  font-size: 40px;
+  color: #2857a4;
+  display: inline-block;
+  padding-top: 10px;
+  margin-right: 0.5rem;
+}
+.skills-display
+{
+width: 70%;
+display: flex;
+flex-wrap: wrap;
+justify-content:space-between;
+
+}
+.skill-progress
+{
+  width: 20rem;
+  height: 3.2rem;
+  background-color: lightgrey;
+  border-radius: 1.8rem;
+  margin-bottom: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  box-shadow: 2px 2px #C2B9B0;
+}
+.skill-progress>div
+{
+  border-radius: 20px 0px 0px 20px;
+}
+.eighty-five
+{
+  width: 85%;
+  height: inherit;
+
+}
+.mb-blue
+{
+  background-color: #f38181;
+}
+.mb75px
+{
+  margin-bottom: 75px;
+}
+.skill-name span
+{
+  color: white;
+  margin-left: 15px;
+font-size: 1.3rem;
+
+}
+.mb-red
+{
+  background-color: #fce38a;
+}
+.ninety-five
+{
+  width: 87%;
+  height: inherit;
+}
+.ninety
+{
+  width: 90%;
+  height: inherit;
+}
+.mb-green
+{
+  background-color: #95e1d3;
+}
+.seventy-five
+{
+  width: 78%;
+  height: inherit;
+}
+.mb-sky
+{
+  background-color: #fc5185;
+}
+.seventy
+{
+  width: 72%;
+  height: inherit;
+}
+.mb-pink
+{
+  background-color: #3fc1c9;
+}
+.sixty
+{
+  width: 65%;
+  height: inherit;
+}
+.mb-parrot
+{
+  background-color: #364f6b;
+}
+.port
+{
+  margin-left: 19px;
+}
+.portfolio
+{
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+
+}
+.port-items
+{
+  margin-bottom: 40px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+#contact
+{
+  background-image: linear-gradient(to right,#203354 ,#511348 75%);
+  height: 100vh;
+}
+input,textarea {
+    margin: 15px;
+    padding: 4px 10px;
+    border: 0px solid transparent;
+    border-bottom: 2px solid white;
+    color: #d9dcdd;
+    background: transparent;
+    width: 120%;
+    line-height: 1.6;
+    font-size: 1.05rem;
+
+
+}
+button
+{
+  background: transparent;
+  border: 2px solid white;
+   font-size: 0.95rem;
+   border-radius: 2px;
+    color: white;
+    font-weight: 700;
+    padding: 0.8em 0.8em 0.78em;
+   text-transform: uppercase;
+    margin-top: 7%;
+     margin-left: 39%;
+}
+.details h3
+{
+  color: white;
+  font-size: 1.5rem;
+  margin-left: 25%;
+}
+form
+{
+  margin-left: 30%;
+}
+.contacts
+{
+  display: flex;
+}
+.para
+{
+  font-size: 1rem;
+  color: white;
+  margin-left: 25%;
+  margin-right: 8%;
+}
+.address
+{
+  font-size: 1.2rem;
+}
+
+.li-contact li a i
+{
+  padding: 35px 25px 0 25px;
+  font-size: 1.2rem;
+}
+.contact-class span i
+{
+  color: white;
+}
+.contact-class
+{
+  color: white;
+}
+.port-items a img
+{
+  border: 1px solid black;
+}
+#skills
+{
+  height: 70vh;
+}
+.timeline
+{
+  width: 75%;
+  position: relative;
+
+}
+.edu
+{
+  width: 75%;
+  position: relative;
+
+}
+.timeline-box
+{
+  position: relative;
+  width: 40%;
+  left: 5%;
+  min-height: 150px;
+  margin: 5px;
+
+}
+.edu-box
+{
+  position: relative;
+  width: 40%;
+  left: 5%;
+  min-height: 150px;
+  margin: 5px;
+
+}
+.timeline-box:nth-child(2n)
+{
+  left: 53%;
+}
+.edu-box:nth-child(2n)
+{
+  left: 53%;
+}
+.timeline-heading::before
+{
+content: url(images/p1.png);
+padding: 2%;
+
+
+}
+.timeline-heading
+{
+  text-align: right;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #111e6c;
+  margin-bottom: 0;
+
+}
+.edu-heading
+{
+  text-align: right;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #111e6c;
+  margin-bottom: 0;
+
+}
+.two
+{
+text-align: right;
+  color: #008081;
+  margin-top: 0;
+}
+.three
+{
+  text-align: right;
+  margin-top: -4%;
+}
+.four
+{
+  text-align: right;
+  margin-left: 0;
+
+}
+.divider
+{
+  position: absolute;
+  height: 90%;
+  width: 0;
+  border: 3px dashed #0096fa6b;
+  top: 7%;
+  left: 50%;
+}
+.traveller
+{
+  position: sticky;
+  top: 25%;
+  transform: rotate(90deg);
+  z-index: 2;
+}
+.traveller i
+{
+  font-size: 2rem;
+}
+.timeline-box:nth-child(2n+1)::after
+{
+  content: '';
+  border-radius: 50%;
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: red;
+  position: absolute;
+  top:14%;
+  right: -13%;
+  z-index: 1;
+}
+.timeline-box:nth-child(2n)::after
+{
+  content: '';
+  border-radius: 50%;
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: red;
+  position: absolute;
+  top:13%;
+  left: -9%;
+  z-index: 1;
+}
+.edu-box:nth-child(2n+1)::after
+{
+  content: '';
+  border-radius: 50%;
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: red;
+  position: absolute;
+  top:10%;
+  right: -13%;
+  z-index: 1;
+}
+.edu-box:nth-child(2n)::after
+{
+  content: '';
+  border-radius: 50%;
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: red;
+  position: absolute;
+  top:10%;
+  left: -9%;
+  z-index: 1;
+}
+.navigation
+{
+  color: white;
+    margin: 0;
+    margin-right: 5%;
+    display: none;
+}
+.navigation i {
+    font-size: 2rem;
+}
+.list
+{
+  margin: 0;
+    display: none;
+    background-color: #828470;
+    box-shadow: 0px 4px 8px 1px #535547;
+}
+.list ul
+{
+  margin: 0.2rem 0.2rem;
+      text-align: left;
+      padding: 0px 0.8rem;
+}
+.menu:hover .list{
+    display: block;
+    position: absolute;
+    right: 3%;
+}
+
+.list li{
+    margin: 0.4rem 0px;
+}
+
+
+@media screen and (max-width:768px) {
+  .divider
+  {
+    left: 5%;
+
+  }
+  .timeline-box
+  {
+    left:12%;
+    width: 80%;
+  }
+  .edu-box:nth-child(2n)
+  {
+    left: 11%;
+  }
+  .edu-box
+  {
+    left:12%;
+    width: 80%;
+  }
+  .timeline-box:nth-child(2n)
+  {
+    left: 11%;
+  }
+  .edu-box:nth-child(2n+1)::after
+  {
+    left: -10%;
+  }
+  .timeline-box:nth-child(2n+1)::after
+  {
+    left: -10%;
+  }
+  .skills-display
+  {
+  width: 60%;
+  }
+  .skill-progress
+  {
+    width: 10rem;
+    height: 3.2rem;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+  }
+  .portfolio
+  {
+    width: 50%;
+  }
+  #contact
+  {
+height: 150vh;
+  }
+.contacts
+{
+  display: block;
+
+}
+form
+{
+  margin-left: 17%;
+
+}
+input,textarea
+{
+  width: 75%;
+}
+button
+{
+
+     margin-left: 30%;
+}
+.details
+{
+  display: block;
+
+}
+.details h3
+{
+margin-top: 10%;
+  margin-left: 5%;
+}
+
+.para
+{
+
+  margin-left: 5%;
+  margin-right: 8%;
+}
+.social ul
+{
+    margin-top: 7%;
+}
+}
+
+
+
+
+@media screen and (max-width:620px) {
+
+  .navigation
+  {
+    display: block;
+  }
+  .menu-nav
+  {
+    display: none;
+  }
+  #experience
+  {
+    margin-top: 40%;
+  }
+  .timeline-box:nth-child(2n)::after
+  {
+    left:-11%;
+  }
+  .edu-box:nth-child(2n)::after
+  {
+    left:-11%;
+  }
+  #contact
+  {
+    height: 150vh;
+  }
+  .skills-display
+  {
+  width: 50%;
+  }
+  .skill-progress
+  {
+    width: 20rem;
+    height: 3.2rem;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+  }
+}
